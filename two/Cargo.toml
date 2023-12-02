@@ -1,0 +1,11 @@
+[package]
+edition = "2018"
+name = "two"
+version = "0.1.0"
+resolver = "1"
+
+[features]
+bb = ["hex"]
+
+[dependencies]
+hex = { version = "*", optional = true}
